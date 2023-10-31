@@ -1,0 +1,198 @@
+.header {
+  position: absolute;
+  background-color: transparent;
+}
+
+.header-content {
+  text-align: center;
+  padding-top: 152px;
+}
+
+.header-heading {
+  margin-bottom: 38px;
+  font-size: 96px;
+  color: white;
+}
+
+.header-btn {
+  padding: 22px 112px;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/*Slider*/
+
+.swiper-wrapper ::after {
+  content: "";
+  background: rgba(21, 21, 21, 0.3);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.swiper-slide {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.swiper-pagination-bullet {
+  width: 120px;
+  height: 3px;
+  background-color: #151515;
+  border-radius: 0;
+  opacity: 1;
+  margin: 0 15px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 120px;
+  height: 6px;
+  background-color: #fff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  bottom: 50px;
+}
+
+/*Advantages*/
+
+.advantages {
+  padding: 150px 0;
+}
+
+.advantages-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.advantages-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.advantages-content-item {
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.advantges-circle,
+.advantages-car {
+  transition: fill 0.15s ease-in-out;
+}
+
+.adventages-content-img:hover .advantges-circle {
+  fill: #06f;
+}
+.adventages-content-img:hover .advantages-car {
+  fill: white;
+}
+
+/*How Work*/
+
+.how-work {
+  margin-bottom: 150px;
+}
+
+.how-work-content {
+  padding: 0 303px;
+}
+
+.how-work-heading {
+  margin-bottom: 50px;
+}
+
+.how-work-heading-description {
+  margin-bottom: 50px;
+}
+
+.how-work-list-heading {
+  margin-bottom: 50px;
+}
+
+.how-work-list {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.how-work-item {
+  display: flex;
+  gap: 140px;
+  align-items: center;
+}
+
+.how-work-description-down {
+  margin-top: 70px;
+}
+
+.how-work-circle,
+.how-work-number {
+  transition: fill 0.15s ease-in-out;
+}
+
+.how-work-img:hover .how-work-circle {
+  fill: white;
+  stroke: #06f;
+}
+
+.how-work-img:hover .how-work-number {
+  fill: #06f;
+}
+
+/*Video*/
+
+.section-video {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.video-heading {
+  margin-bottom: 20px;
+}
+
+.video-description {
+  margin-bottom: 50px;
+}
+
+.video {
+  width: 1000px;
+  height: 500px;
+}
+
+/*Consider*/
+
+.consider {
+  margin-bottom: 150px;
+}
+
+.consider-heading {
+  text-align: center;
+}
+
+.consider-description {
+  margin: 20px auto 50px auto;
+  max-width: 580px;
+}
+
+.consider-list {
+  display: flex;
+  gap: 40px;
+}
+
+.consider-item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

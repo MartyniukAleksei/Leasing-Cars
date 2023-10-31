@@ -1,0 +1,54 @@
+/*Contact*/
+
+.contact {
+  padding-top: 100px;
+  margin-bottom: 150px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-descreption {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-form-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-top-input {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.contact-top-input-inner {
+  width: 270px;
+  height: 57px;
+  border: 1px solid #06f;
+  padding: 18px 20px;
+}
+
+.contact-text-area {
+  width: 580px;
+  height: 291px;
+  border: 1px solid #06f;
+  padding: 28px 20px;
+}
+
+.contact-contact-btn {
+  padding: 13px 61px;
+}
